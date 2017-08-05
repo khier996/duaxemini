@@ -1,6 +1,8 @@
 body {
   margin: 0;
   background-color: #f7f2f2;
+  background-image: url('images/main.jpg');
+  background-size: cover;
 }
 
 .container {
@@ -15,13 +17,11 @@ body {
 
 .fb-img-wrapper {
   position: absolute;
-  top: 140px;
-  left: 115px;
+  top: 190px;
+  left: 50px;
   width: 100px;
   height: 100px;
 }
-
-
 
 .fb-link {
   width: 67px;
@@ -35,8 +35,8 @@ body {
 
 .appstore-img-wrapper {
   position: absolute;
-  top: 235px;
-  left: 115px;
+  top: 290px;
+  left: 50px;
 }
 
 .appstore-link {
@@ -51,8 +51,8 @@ body {
 
 .googleplay-img-wrapper {
   position: absolute;
-  top: 335px;
-  left: 110px;
+  top: 390px;
+  left: 50px;
 }
 .googleplay-link {
   width: 213px;
