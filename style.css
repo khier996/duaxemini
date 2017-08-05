@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background-color: #f7f2f2;
+}
+
+.container {
+  position: relative;
+}
+
+.main-img {
+  display: block;
+  margin: 40px auto;
+  border: 2px solid white;
+}
+
+.fb-img-wrapper {
+  position: absolute;
+  top: 140px;
+  left: 135px;
+  width: 100px;
+  height: 100px;
+}
+
+
+
+.fb-link {
+  width: 67px;
+  height: 67px;
+  position: absolute;
+  left: 113px;
+  top: 105px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.appstore-img-wrapper {
+  position: absolute;
+  top: 235px;
+  left: 135px;
+}
+
+.appstore-link {
+  width: 213px;
+  height: 74px;
+  position: absolute;
+  left: 39px;
+  top: 106px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.googleplay-img-wrapper {
+  position: absolute;
+  top: 335px;
+  left: 135px;
+}
+.googleplay-link {
+  width: 213px;
+  height: 74px;
+  position: absolute;
+  left: 44px;
+  top: 105px;
+  border-radius: 10px;
+  z-index: 2;
+}
